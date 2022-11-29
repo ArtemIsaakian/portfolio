@@ -1,0 +1,22 @@
+.about-section {
+  margin: 100px 0 0 0;
+
+  &__blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+
+  }
+
+  &__right {
+    text-align: center;
+    margin: auto 0;
+  }
+
+  &__sub-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 127.5%;
+    color: $color-title;
+  }
+}

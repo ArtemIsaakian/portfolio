@@ -1,14 +1,47 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
 </head>
 <body>
+ <div class="main-wrapper">
+   <img class="main-section__big-rectangle" src="img/rectangle-big.png" width="990" height="990" alt="">
+   <img class="main-section__small-rectangle" src="img/rectangle-small.png" width="708" height="708" alt="">
+   <section class="main-section">
+     <h1 class="main-section__title main-section__title__first-text" data-title="first-text"><span>HELLO! I’M</span><br>ARTEM ISAAKIAN</h1>
+     <h2 class="main-section__title main-section__title__second-text" data-title="second-text">I’M FRONTEND DEVELOPER</h2>
+   </section>
+   <section class="about-section">
+     <h2 class="about-section__title title" data-aos="flip-left">About me</h2>
+     <div class="about-section__blocks">
+       <div class="about-section__left" data-aos="fade-right">
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias asperiores atque beatae commodi deserunt dicta ea eligendi enim esse eum excepturi facere fuga illum, in ipsum labore laborum magni maiores nesciunt, nihil non nulla placeat quae quaerat quam qui quia reiciendis repellat sed sequi soluta temporibus totam, ut vitae voluptate voluptatibus. Architecto blanditiis cupiditate dicta dolorem est incidunt libero minus neque, nihil praesentium quaerat repellendus reprehenderit similique tempora velit.
+         </p>
+       </div>
+       <div class="about-section__right" data-aos="fade-left">
+         <h3 class="about-section__sub-title">My contacts:</h3>
+         <p>Email: <a href="mailto:artem.isaakian.jobca@gmail.com">artem.isaakian.jobca@gmail.com</a></p>
+       </div>
+     </div>
+   </section>
+   <section class="skills-section">
+     <h2 class="skills-section__title title" data-aos="flip-left">WHAT I CAN</h2>
+     <div class="skills-section__blocks">
+       <p class="skills-section__block" data-aos="fade-right" data-aos-dealy="1000"><span>Create responsive websites</span> <img src="img/skills/wp.svg" alt=""></p>
+       <p class="skills-section__block" data-aos="fade-left" data-aos-dealy="1300"><img src="img/skills/responsive.svg" alt=""> <span>Interaction with CMS WordPress</span> </p>
+       <p class="skills-section__block" data-aos="fade-right" data-aos-dealy="1600">My Skills: HTML, PUG, CSS(SCSS), Vue.js, React.js, Vite.js, Gulp <img src="img/skills/skills.svg" alt=""></p>
+     </div>
+   </section>
+   <section class="works-section">
+     <h2 class="works-section title" data-aos="flip-left">PORTFOLIO</h2>
+   </section>
+ </div>
 <script type="module" src="./main.js"></script>
 </body>
 </html>
